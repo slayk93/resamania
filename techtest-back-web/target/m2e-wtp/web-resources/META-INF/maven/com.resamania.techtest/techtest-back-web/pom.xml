@@ -8,22 +8,34 @@
 		<version>1.0.0</version>
 	</parent>
 
-	<groupId>com.resamania</groupId>
-	<artifactId>techtest-front-web</artifactId>
-	<version>1.0.0</version>
+	<groupId>com.resamania.techtest</groupId>
+	<artifactId>techtest-back-web</artifactId>
 	<name>${project.artifactId}</name>
 	<packaging>war</packaging>
-
-	<properties>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-	</properties>
 
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
-			<version>3.8.1</version>
+			<version>4.11</version>
 			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>com.sun.jersey</groupId>
+			<artifactId>jersey-server</artifactId>
+			<version>1.8</version>
+		</dependency>
+		<dependency>
+			<groupId>com.sun.jersey</groupId>
+			<artifactId>jersey-client</artifactId>
+			<version>1.8</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.google.code.gson</groupId>
+			<artifactId>gson</artifactId>
+			<version>2.8.0</version>
 		</dependency>
 	</dependencies>
 </project>
